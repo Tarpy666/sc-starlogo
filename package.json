@@ -1,0 +1,22 @@
+{
+  "name": "@counted/sc-starlogo",
+  "version": "0.1.0",
+  "description": "Agent-based modeling blocks: agents, terrain grid, behavior rules.",
+  "stack": "backend",
+  "family": "counted",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "license": "MIT"
+}
